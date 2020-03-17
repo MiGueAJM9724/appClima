@@ -9,12 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var txtClima: UILabel!
+    @IBOutlet weak var txtCiudad: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
-
+    @IBAction func btnMostrarClima(_ sender: UIButton) {
+    
+    }
+    
+    
 
 }
 
